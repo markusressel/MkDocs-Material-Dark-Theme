@@ -1,6 +1,8 @@
 # MkDocs-Material-Dark-Theme
 A dark theme for the mkdocs-material theme
 
+![Example Image](MkDocs-Material-Dark.png)
+
 # Usage
 
 If you only want to use the dark theme you can just copy the css files and add them 
