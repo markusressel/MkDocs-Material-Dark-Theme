@@ -16,6 +16,7 @@ Copy the contents of this repository to your root documentation path.
     etc.
   ==theme
     --main.html
+    --manifest.json
     etc.
 ```
 
@@ -31,4 +32,4 @@ extra_css:
   - stylesheets/codehilite.css
 ```
 
-Make sure to change the values in ```main.html``` to your liking.
+Make sure to change the values in ```manifest.json``` to your liking.
