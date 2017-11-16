@@ -38,8 +38,12 @@ Then add the following to your ```mkdocs.yaml``` file:
 
 ```
 # Documentation and theme
-theme: 'material'
-theme_dir: 'theme'
+theme:
+  name: 'material'
+  custom_dir: 'theme'
+  palette:
+    primary: 'green'
+    accent: 'light green'
 
 extra_css:
   - stylesheets/dark_theme.css
