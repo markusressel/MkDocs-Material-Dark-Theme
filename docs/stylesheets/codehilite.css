@@ -105,3 +105,6 @@ actual syntax highlighting
 .codehilite .gu { color: #75715e !important ; } /* Generic.Subheading & Diff Unified/Comment? */
 .codehilite .gd { color: #f92672 !important ; } /* Generic.Deleted & Diff Deleted */
 .codehilite .gi { color: #a6e22e !important ; } /* Generic.Inserted & Diff Inserted */
+
+.codehilite .md-clipboard:before { color: rgba(255, 255, 255, 0.07) } /* Clipboard button (no hover) */
+.codehilite:hover .md-clipboard:before { color: rgba(255, 255, 255, 0.54) } /* Clipboard button (hovered) */
