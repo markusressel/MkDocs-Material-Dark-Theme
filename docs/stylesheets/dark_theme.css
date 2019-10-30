@@ -23,12 +23,17 @@ Main headlines
 /*
 Tables
 */
-table {
-  background-color: #616161 !important;
+tbody {
+  background-color: rgba(255, 255, 255, 0.05) !important;
 }
 
-tbody {
-  background-color: #484848 !important;
+.md-typeset table:not([class]) th {
+  background-color: rgba(255,255,255,0.11) !important;
+}
+
+.md-typeset table:not([class]) tr:hover {
+  box-shadow: none !important;
+  background-color: rgba(255, 255, 255, 0.04) !important;
 }
 
 /*
