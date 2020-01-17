@@ -1,7 +1,11 @@
 # MkDocs-Material-Dark-Theme
-A dark theme for the mkdocs-material theme
+A dark theme for the [Material for MkDocs](https://squidfunk.github.io/MkDocs-Material/) theme.
 
 ![Example Image](MkDocs-Material-Dark.png)
+
+# Notice
+
+Official dark theme support is currently worked on at [squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material) and is scheduled for a **v5.X** release, so this repository will hopefully become obsolete in the future. 
 
 # Usage
 
