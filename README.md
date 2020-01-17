@@ -66,6 +66,8 @@ This project contains a simple docker file to get started with MkDocs-Material, 
 
 and runs the mkdocs development server (that includes auto-rebuild) which hosts the content in `/data` on port `8000`.
 
+This image does **not** contain the dark theme configuration. Since it lives inside your project folder afafik there is no easy way to merge the files of this repo with your custom project data, so you have to do this youself.
+
 To start it use a command similar to this:
 
 ```bash script
