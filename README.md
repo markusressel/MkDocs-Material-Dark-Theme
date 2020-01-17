@@ -64,7 +64,7 @@ This project contains a simple docker file to get started with MkDocs-Material, 
 * mkdocs-material
 * pymdown-extensions
 
-and runs the development server (that includes auto-rebuild) which hosts the content in `/data` on port `8000`.
+and runs the mkdocs development server (that includes auto-rebuild) which hosts the content in `/data` on port `8000`.
 
 To start it use a command similar to this:
 
@@ -73,5 +73,5 @@ sudo docker run -it \
   --name mkdocs-material \
   --mount type=bind,source=/mymkdocsproject,target=/data \
   -p 8000:8000 \
-  markusressel/mkdocs-material-dark
+  markusressel/mkdocs-material
 ```
